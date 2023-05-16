@@ -1,0 +1,11 @@
+framework module MaveFramework {
+  umbrella header "MaveFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module MaveFramework.Swift {
+  header "MaveFramework-Swift.h"
+  requires objc
+}
